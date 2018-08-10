@@ -33,7 +33,7 @@ int main () {
             if (Prime(a)) {
                 if (m == 0) {
                     ans ++;
-                    printf ("%d ", a);
+                   // printf ("%d ", a);
                     break;
                 }
                 a = a / pow(10, n - 1) + (a % (int)pow(10, n - 1)) * 10;
