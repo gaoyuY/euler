@@ -4,6 +4,12 @@
 	> Mail: 
 	> Created Time: 2018年07月30日 星期一 09时43分17秒
  ************************************************************************/
+ /*题目
+  　A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,a2 + b2 = c2,For example, 32 + 42 = 9 + 16 = 25 = 52.
+    There exists exactly one Pythagorean triplet for which a + b + c = 1000.Find the product abc.
+　　答案：31875000
+*/
+
 
 #include<stdio.h>
 #include<math.h>
