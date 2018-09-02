@@ -7,8 +7,8 @@
 
 #include<stdio.h>
 #define MAX_N 10000000
-int prime[MAX_N + 5] = {0};
-int is_prime[MAX_N + 5] = {0};
+int prime[MAX_N + 5] = {0};//存放素数
+int is_prime[MAX_N + 5] = {0};//标记是否为素数
 void init () {
     for (int i = 2; i < MAX_N; i++) {
         if (!is_prime[i]) {
